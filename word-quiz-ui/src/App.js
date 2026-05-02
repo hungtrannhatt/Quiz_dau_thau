@@ -442,33 +442,49 @@ function App() {
               <span className="text-red-500 text-xl ml-2">*</span>
             </div>
 
-            <div className="space-y-3">
+            <div className="space-y-4">
               {q.options.map((opt, i) => {
-                let optionClass = "flex items-start p-3 rounded-md border border-transparent transition-colors cursor-pointer ";
-                
+                // 1. Phân giải logic màu sắc tường minh để Tailwind không bị lỗi đè class
+                let optionClass = "flex items-center p-3 rounded-md border transition-all duration-200 cursor-pointer ";
+                let circleClass = "w-5 h-5 rounded-full border-2 flex items-center justify-center mr-3 flex-shrink-0 ";
+
                 if (!isRevealed) {
-                  optionClass += "hover:bg-gray-50";
+                  // TRẠNG THÁI: Chưa bấm chốt đáp án
+                  optionClass += "border-transparent hover:bg-gray-50";
+                  circleClass += opt === selectedOption ? "border-[#673ab7]" : "border-gray-400";
                 } else {
-                  if (opt === selectedOption) {
-                    optionClass += opt.isCorrect ? "bg-green-100 border-green-400" : "bg-red-100 border-red-400";
-                  } else if (opt.isCorrect) {
-                    optionClass += "bg-green-50 border-green-300"; 
+                  // TRẠNG THÁI: Đã bấm chốt đáp án
+                  optionClass += " cursor-default "; // Tắt con trỏ chuột
+                  
+                  if (opt.isCorrect) {
+                    // NẾU LÀ ĐÁP ÁN ĐÚNG: Luôn nổi bật nền xanh, viền xanh dù có được chọn hay không
+                    optionClass += "bg-green-100 border-green-500 font-medium";
+                    circleClass += "border-green-500 bg-green-500";
+                  } else if (opt === selectedOption) {
+                    // NẾU LÀ ĐÁP ÁN SAI (DO USER CHỌN): Hiện nền đỏ, viền đỏ
+                    optionClass += "bg-red-100 border-red-400";
+                    circleClass += "border-red-500 bg-red-500";
+                  } else {
+                    // CÁC ĐÁP ÁN SAI KHÁC: Làm mờ đi để người dùng tập trung vào đáp án đúng
+                    optionClass += "border-transparent opacity-40";
+                    circleClass += "border-gray-300";
                   }
-                  optionClass += " cursor-default"; 
                 }
 
                 return (
                   <div key={i} className={optionClass} onClick={() => handleOptionClick(opt)}>
-                    <div className={`w-5 h-5 mt-0.5 rounded-full border-2 flex items-center justify-center mr-3 flex-shrink-0
-                      ${opt === selectedOption ? 'border-[#673ab7]' : 'border-gray-400'}
-                      ${isRevealed && opt.isCorrect ? 'border-green-500 bg-green-500' : ''}
-                      ${isRevealed && opt === selectedOption && !opt.isCorrect ? 'border-red-500 bg-red-500' : ''}
-                    `}>
+                    <div className={circleClass}>
+                      {/* Dấu chấm tím khi đang tạm chọn (chưa chốt) */}
                       {opt === selectedOption && !isRevealed && <div className="w-2.5 h-2.5 rounded-full bg-[#673ab7]"></div>}
-                      {isRevealed && opt.isCorrect && <span className="text-white text-xs">✓</span>}
-                      {isRevealed && opt === selectedOption && !opt.isCorrect && <span className="text-white text-xs">✕</span>}
+                      
+                      {/* Dấu tích ✓ trắng cho câu đúng */}
+                      {isRevealed && opt.isCorrect && <span className="text-white text-xs font-bold">✓</span>}
+                      
+                      {/* Dấu X trắng cho câu chọn sai */}
+                      {isRevealed && opt === selectedOption && !opt.isCorrect && <span className="text-white text-xs font-bold">✕</span>}
                     </div>
-                    <span className="text-gray-700 text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: opt.displayText || opt.text }}></span>
+                    
+                    <span className="text-gray-800 text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: opt.displayText || opt.text }}></span>
                   </div>
                 );
               })}
