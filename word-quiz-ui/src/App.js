@@ -48,7 +48,9 @@ function App() {
 
     setLoading(true);
     try {
-      const response = await axios.post('http://localhost:3001/api/upload-quiz', formData);
+      // Nếu bạn dùng Create React App:
+const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:3001';
+const response = await axios.post(`${apiUrl}/api/upload-quiz`, formData);
       const allQuestions = response.data.data;
       
       // Divide into chunks of 30
