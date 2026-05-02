@@ -539,7 +539,7 @@
             },
             {
                 "text": "Miễn phí",
-                "isCorrect": false,
+                "isCorrect": true,
                 "displayText": "C. Miễn phí "
             },
             {
@@ -1354,7 +1354,7 @@
         "options": [
             {
                 "text": "Kinh nghiệm thực hiện hợp đồng cung cấp hàng hóa tương tự",
-                "isCorrect": false,
+                "isCorrect": true,
                 "displayText": "A. Kinh nghiệm thực hiện hợp đồng cung cấp hàng hóa tương tự "
             },
             {
@@ -1404,7 +1404,7 @@
         "options": [
             {
                 "text": "Nội dung công việc xây lắp thuộc gói thầu xây lắp, gói thầu EC",
-                "isCorrect": false,
+                "isCorrect": true,
                 "displayText": "A. Nội dung công việc xây lắp thuộc gói thầu xây lắp, gói thầu EC "
             },
             {
@@ -1904,7 +1904,7 @@
         "options": [
             {
                 "text": "Phải sử dụng phương pháp đánh giá “đạt”, “không đạt”",
-                "isCorrect": false,
+                "isCorrect": true,
                 "displayText": "A. Phải sử dụng phương pháp đánh giá “đạt”, “không đạt” "
             },
             {
@@ -1964,7 +1964,7 @@
             },
             {
                 "text": "Có giá trị bằng 50% giá trị theo chu kỳ 01 năm của gói thầu",
-                "isCorrect": false,
+                "isCorrect": true,
                 "displayText": "C. Có giá trị bằng 50% giá trị theo chu kỳ 01 năm của gói thầu "
             },
             {
@@ -2352,6 +2352,11 @@
     {
         "questionText": "95. Gói thầu mua sắm hàng hóa chia thành nhiều phần thì việc đánh giá về quy mô hợp đồng tương tự đối với nhà thầu tham dự nhiều phần được thực hiện như thế nào?<br>A.Việc đánh giá về quy mô hợp đồng tương tự căn cứ trên tổng quy mô hợp đồng tương tự đối với các phần mà nhà thầu tham dự",
         "options": [
+            {
+                "text": "Việc đánh giá về quy mô hợp đồng tương tự căn cứ trên tổng quy mô hợp đồng tương tự đối với các phần mà nhà thầu tham dự",
+                "isCorrect": false,
+                "displayText": "A. Việc đánh giá về quy mô hợp đồng tương tự căn cứ trên tổng quy mô hợp đồng tương tự đối với các phần mà nhà thầu tham dự "
+            },
             {
                 "text": "Việc đánh giá về quy mô hợp đồng tương tự tương ứng với từng phần mà nhà thầu tham dự, nhà thầu không phải đáp ứng tổng quy mô hợp đồng tương tự đối với các phần mà nhà thầu tham dự",
                 "isCorrect": true,
@@ -3654,7 +3659,7 @@
             },
             {
                 "text": "Có thể gộp thành một gói thầu để một trong các cơ quan, tổ chức, đơn vị mua sắm hoặc để đơn vị có chức năng mua sắm tập trung thực hiện việc mua sắm đối với các hàng hóa, dịch vụ này",
-                "isCorrect": false,
+                "isCorrect": true,
                 "displayText": "B. Có thể gộp thành một gói thầu để một trong các cơ quan, tổ chức, đơn vị mua sắm hoặc để đơn vị có chức năng mua sắm tập trung thực hiện việc mua sắm đối với các hàng hóa, dịch vụ này "
             },
             {
@@ -4134,7 +4139,7 @@
             },
             {
                 "text": "Bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm",
-                "isCorrect": false,
+                "isCorrect": true,
                 "displayText": "C. Bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm "
             },
             {
@@ -4389,7 +4394,7 @@
             },
             {
                 "text": "Phương án B và C đều đúng",
-                "isCorrect": false,
+                "isCorrect": true,
                 "displayText": "D. Phương án B và C đều đúng "
             }
         ]
@@ -4848,6 +4853,11 @@
         "questionText": "195. Trường hợp một hoặc một số thành viên liên danh vi phạm hợp đồng, không còn năng lực để tiếp tục thực hiện hợp đồng, làm ảnh hưởng nghiêm trọng đến tiến độ, chất lượng, hiệu quả của gói thầu thì việc đánh giá uy tín của nhà thầu trong việc thực hiện hợp đồng được xử lý như nào? A. Nhà thầu liên danh vi phạm hợp đồng bị coi là không hoàn thành hợp đồng và bị chủ đầu tư đăng tải thông tin nhà thầu liên danh vi phạm hợp đồng trên Hệ thống mạng đấu thầu quốc gia",
         "options": [
             {
+                "text": "Nhà thầu liên danh vi phạm hợp đồng bị coi là không hoàn thành hợp đồng và bị chủ đầu tư đăng tải thông tin nhà thầu liên danh vi phạm hợp đồng trên Hệ thống mạng đấu thầu quốc gia",
+                "isCorrect": false,
+                "displayText": "A. Nhà thầu liên danh vi phạm hợp đồng bị coi là không hoàn thành hợp đồng và bị chủ đầu tư đăng tải thông tin nhà thầu liên danh vi phạm hợp đồng trên Hệ thống mạng đấu thầu quốc gia "
+            },
+            {
                 "text": "Chỉ một hoặc một số thành viên liên danh vi phạm hợp đồng bị coi là không hoàn thành hợp đồng và bị chủ đầu tư đăng tải thông tin thành viên liên danh vi phạm hợp đồng trên Hệ thống mạng đấu thầu quốc gia",
                 "isCorrect": true,
                 "displayText": "B. Chỉ một hoặc một số thành viên liên danh vi phạm hợp đồng bị coi là không hoàn thành hợp đồng và bị chủ đầu tư đăng tải thông tin thành viên liên danh vi phạm hợp đồng trên Hệ thống mạng đấu thầu quốc gia "
@@ -5094,7 +5104,7 @@
         "options": [
             {
                 "text": "Hủy quyết định phê duyệt kết quả lựa chọn nhà thầu trúng thầu",
-                "isCorrect": false,
+                "isCorrect": true,
                 "displayText": "A. Hủy quyết định phê duyệt kết quả lựa chọn nhà thầu trúng thầu "
             },
             {
@@ -5169,7 +5179,7 @@
         "options": [
             {
                 "text": "Mời nhà thầu xếp hạng tiếp theo vào thương thảo hợp đồng",
-                "isCorrect": false,
+                "isCorrect": true,
                 "displayText": "A. Mời nhà thầu xếp hạng tiếp theo vào thương thảo hợp đồng "
             },
             {
@@ -5224,7 +5234,7 @@
             },
             {
                 "text": "Được kế thừa năng lực, kinh nghiệm của xí nghiệp X",
-                "isCorrect": false,
+                "isCorrect": true,
                 "displayText": "B. Được kế thừa năng lực, kinh nghiệm của xí nghiệp X "
             },
             {
@@ -5424,7 +5434,7 @@
             },
             {
                 "text": "05 ngày làm việc kể từ ngày hợp đồng có hiệu lực",
-                "isCorrect": false,
+                "isCorrect": true,
                 "displayText": "B. 05 ngày làm việc kể từ ngày hợp đồng có hiệu lực "
             },
             {
@@ -5594,7 +5604,7 @@
         "options": [
             {
                 "text": "E-HSMT yêu cầu giá trị bảo đảm dự thầu là 40 triệu đồng",
-                "isCorrect": false,
+                "isCorrect": true,
                 "displayText": "A. E-HSMT yêu cầu giá trị bảo đảm dự thầu là 40 triệu đồng "
             },
             {
@@ -6029,7 +6039,7 @@
             },
             {
                 "text": "Tệp tin này không được xem xét, đánh giá",
-                "isCorrect": false,
+                "isCorrect": true,
                 "displayText": "C. Tệp tin này không được xem xét, đánh giá "
             },
             {
@@ -6044,7 +6054,7 @@
         "options": [
             {
                 "text": "Thời điểm bắt đầu và kết thúc phải trong giờ hành chính.",
-                "isCorrect": false,
+                "isCorrect": true,
                 "displayText": "A. Thời điểm bắt đầu và kết thúc phải trong giờ hành chính. "
             },
             {
@@ -6329,7 +6339,7 @@
             },
             {
                 "text": "Không phải thẩm định kết quả lựa chọn nhà thầu",
-                "isCorrect": false,
+                "isCorrect": true,
                 "displayText": "C. Không phải thẩm định kết quả lựa chọn nhà thầu "
             },
             {
@@ -7390,7 +7400,7 @@
         ]
     },
     {
-        "questionText": "*2.97. Trường hợp gói thầu có giá gói thầu dưới 500 triệu đồng đối với dự toán mua sắm thì chủ đầu tư được quyết định cho phép nhà thầu nào sau đây được tham dự thầu?",
+        "questionText": "*297. Trường hợp gói thầu có giá gói thầu dưới 500 triệu đồng đối với dự toán mua sắm thì chủ đầu tư được quyết định cho phép nhà thầu nào sau đây được tham dự thầu?",
         "options": [
             {
                 "text": "Nhà thầu có từ 50% lao động trở lên là người khuyết tật, thương binh, dân tộc thiểu số có hợp đồng lao động với thời gian thực hiện hợp đồng từ 03 tháng trở lên và đến thời điểm đóng thầu hợp đồng vẫn còn hiệu lực",
@@ -7426,6 +7436,11 @@
                 "text": "Nhà thầu A sử dụng tài khoản tham gia Hệ thống của chính đơn vị mình để tham dự thầu",
                 "isCorrect": false,
                 "displayText": "B. Nhà thầu A sử dụng tài khoản tham gia Hệ thống của chính đơn vị mình để tham dự thầu "
+            },
+            {
+                "text": "Nhà thầu A sử dụng tài khoản tham gia Hệ thống của công ty con hạch toán phụ thuộc C để tham dự thầu",
+                "isCorrect": false,
+                "displayText": "C. Nhà thầu A sử dụng tài khoản tham gia Hệ thống của công ty con hạch toán phụ thuộc C để tham dự thầu "
             },
             {
                 "text": "Đáp án A và C là đúng",
@@ -8064,7 +8079,7 @@
         "options": [
             {
                 "text": "Đấu thầu mà chỉ có nhà thầu nội khối được tham dự",
-                "isCorrect": false,
+                "isCorrect": true,
                 "displayText": "A. Đấu thầu mà chỉ có nhà thầu nội khối được tham dự "
             },
             {
@@ -8464,7 +8479,7 @@
         "options": [
             {
                 "text": "Ngày 08/8/2025",
-                "isCorrect": false,
+                "isCorrect": true,
                 "displayText": "A. Ngày 08/8/2025 "
             },
             {
@@ -8749,7 +8764,7 @@
             },
             {
                 "text": "Hệ thống mạng đấu thầu quốc gia",
-                "isCorrect": false,
+                "isCorrect": true,
                 "displayText": "C. Hệ thống mạng đấu thầu quốc gia "
             },
             {
@@ -9166,6 +9181,11 @@
                 "text": "Trước khi phê duyệt kế hoạch lựa chọn nhà thầu, chủ đầu tư phê duyệt dự toán đối với khối lượng mua thêm",
                 "isCorrect": true,
                 "displayText": "A. Trước khi phê duyệt kế hoạch lựa chọn nhà thầu, chủ đầu tư phê duyệt dự toán đối với khối lượng mua thêm"
+            },
+            {
+                "text": "Trước khi phê duyệt kế hoạch lựa chọn nhà thầu, chủ đầu tư trình cấp có thẩm quyền phê duyệt dự toán đối với khối lượng mua thêm",
+                "isCorrect": false,
+                "displayText": "B. Trước khi phê duyệt kế hoạch lựa chọn nhà thầu, chủ đầu tư trình cấp có thẩm quyền phê duyệt dự toán đối với khối lượng mua thêm"
             },
             {
                 "text": "Trong quá trình thực hiện hợp đồng, trường hợp sử dụng khối lượng tùy chọn mua thêm, trước khi thực hiện chủ đầu tư phê duyệt dự toán cho khối lượng mua thêm",
